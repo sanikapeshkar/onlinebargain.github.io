@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bargain</title>
+
+    <link rel="stylesheet" media="all" href="../styles/setup.css" />
+    <link rel="stylesheet" media="all" href="../styles/says.css" />
+    <link rel="stylesheet" media="all" href="../styles/reply.css" />
+    <link rel="stylesheet" media="all" href="../styles/typing.css" />
+    <link rel="stylesheet" media="all" href="../styles/input.css" />
+    <link rel="stylesheet" href="bargain.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="addstore.html">Add Store </a></li>
+          <li><a href="login.html">Log in</a></li>
+          <li><a href="#">Sign up</a></li>
+      </ul>
+      </nav>
+</section>
+    <div class="bargain">
+    <div class="prod">
+
+      <img class="prodimg" src="frame.jpeg">
+  <div class="button">
+      <h3>Wall Frame 60X60</h3>
+ <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odio dolorum iure in voluptates non eveniet molestias sunt magnam repudiandae, optio odit voluptatum obcaecati voluptatibus doloribus tempora velit ullam porro!</h4>
+
+  <a href="#"><button type="submit">Add to cart</button></a>
+  </div>
+</div>
+
+    <div class="bot">
+    <div id="chat"></div>
+
+    <script src="./component/Bubbles.js"></script>
+    <script>
+     const chatWindow = new Bubbles(
+  document.getElementById("chat"), 
+  "chatWindow" 
+);
+
+chatWindow.talk(
+
+  {
+
+    ice: {
+
+      says: ["Hey! I am your virtual bargaining assistant  ", "TYPE Bargain for Product product_id  TO BARGAIN"],
+      reply: [
+        {
+          question: "Bargain for Product 12345",
+          answer:  "price"
+        }
+      ]
+    }, 
+
+    price: {
+      says: ["Your Product is a WALL FRAME 60x60 from Shree gifts .The Price for the product is Rs 300 .Enter Your Bargain price"],
+      reply: [
+        {
+          question: "250",
+          answer: "agreed"
+        }
+      ],
+      reply: [
+        {
+          question: "230",
+          answer: "notagreed"
+        }
+      ]
+    },
+    agreed: {
+      says: ["The Retailer has agreed on the price kindly make payment to book your order "],
+      reply: [
+        {
+          question: "Thank you",
+          answer: ""
+        }
+      ]
+    },
+    notagreed: {
+      says: ["The Retailer has negotiated on Rs280 "],
+      reply: [
+        {
+          question: "Ok accepted",
+          answer: ""
+        }
+      ],
+
+      }
+  } 
+);
+    </script>
+    </div>
+    </div>
+  </body>
+</html>

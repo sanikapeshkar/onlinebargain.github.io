@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-image:url(login.png);
+    background-size: 1540px 1024px;
+    background-repeat: no-repeat;
+    margin-left:100px;
+}
+
+.login{
+    margin-top:220px;
+    margin-right: 160px;
+    display:flex;
+    flex-direction: column;
+    float:right;
+}
+input{
+    padding:25px;
+    border:white;
+    width:300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: black;
+    background: rgba(255, 251, 251, 0.31);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#fpass{
+    position:relative;
+    text-align:center;    
+   
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: medium;
+}
+#fpass{
+   
+    color:rgb(54, 54, 54);
+
+}
+#continue{
+    color:rgb(58, 56, 56);
+    text-align: center;
+    position:relative;
+}
+.ll{
+    background-color: white;
+    border-radius: 10px;
+    padding:15px;
+    position: relative;
+    top:70px;
+
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+button{
+    padding:5px;
+    width: 154px;
+   height: 48px;
+    left: 1099px;
+    top: 460px;
+    position: absolute;
+    justify-content: center;
+    border:none;
+    background: rgba(255, 251, 251, 0.31);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}

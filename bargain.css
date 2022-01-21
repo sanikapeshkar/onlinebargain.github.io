@@ -1,0 +1,100 @@
+*{
+    margin:auto;
+}
+a{
+    text-decoration:none;
+    color:rgb(83, 78, 78);
+}
+.header{
+float:right;
+display:flex;
+margin-top:0px;
+}
+ul{
+    display:flex;
+    list-style:none;
+    
+}
+li{
+    font-family: Montserrat;
+    font-style: normal;
+
+font-size: 20px;
+    padding:10px;
+    color:black;
+}
+.add{
+    display:flex;
+}
+.bargain{
+    display:flex;
+}
+.prodimg{
+        border-radius: 100px;
+        float:left;
+        padding: 15px;
+        height:70%;
+        position:relative;
+        color:white;
+    
+    }
+    
+    .prodimg :hover{
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+        cursor:pointer;
+    }
+    .prod{
+    margin-bottom: 30px;
+    position:relative;
+    margin-left:100px;
+    margin-right:100px;
+    height: 250px;
+    left: 0px;
+    right:200px;
+    top:40px;
+    box-sizing:content-box;
+    background: #FFDF54;
+    border-radius: 30px;
+    }
+    
+    .button{
+        margin-left: 0px;
+        padding-left:0px;
+        padding-top:20px;
+    }
+    
+    h4{
+        font-weight:0.03px;
+        font-size:20px;
+        margin-bottom:10px;
+        color:rgb(104, 92, 92);
+    }
+    
+    button{
+        background: #FFFEFE;
+        border-radius: 40px;  
+        width:150px;
+        height:50px;
+        border:none;    
+    }
+    
+    button:hover{
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+        cursor:pointer;
+    }
+    
+    .content{
+        left:500px;
+    }
+.chat{
+    margin-left:60px;
+    float:right;
+}
+.bot{
+    text-align:center;
+    margin-top:200px;
+    padding:20px;
+    width:50%;
+    border:solid;
+    border-radius: 30px;
+}

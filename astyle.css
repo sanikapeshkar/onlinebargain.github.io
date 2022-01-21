@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration:none;
+    color:rgb(83, 78, 78);
+}
+.header{
+float:right;
+display:flex;
+margin-top:0px;
+}
+ul{
+    display:flex;
+    list-style:none;
+    
+}
+li{
+    font-family: Montserrat;
+font-style: normal;
+
+font-size: 26px;
+    padding:10px;
+    color:black;
+}
+.add{
+    display:flex;
+}
+
+/* side wali image */
+
+
+/* Add Store*/
+.addstore1{
+    display:flex;
+}
+
+#add{
+    margin-left: 200px;
+    top:200px;
+}
+#as1{
+    position:absolute ;
+    width: 100px;
+    margin-bottom:100px;
+}
+.addstore{
+    float:right;
+    padding:10px;
+    margin-left: 400px; 
+}
+
+h2{
+    font-weight:bold;
+}
+
+input{
+border-top:none;
+border-left:none;
+border-right:none;
+width:500px;
+}
+
+#zip{
+    width:300px;
+}
+
+select{ 
+border-top:none;
+border-left:none;
+border-right:none;
+width:200px;
+}
+
+#addstore{
+position: absolute;
+width: 500px;
+align-content: center;
+}
